@@ -1,0 +1,9 @@
+﻿<Application x:Class="PROG6212_Part_2_ST10085290_Justin_P.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PROG6212_Part_2_ST10085290_Justin_P"
+             StartupUri="Login.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

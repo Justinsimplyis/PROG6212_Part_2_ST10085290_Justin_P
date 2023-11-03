@@ -1,0 +1,46 @@
+PROG6212_Part_2_ST10085290_Justin
+-----------------------------------------------------------------------------------------------------------
+Youtube Link: https://youtu.be/GHj_VzJzFRc
+
+-----------------------------------------------------------------------------------------------------------
+1.Software you would need:
+
+- Visual Studio IDE (recommended version: Visual Studio 2019 or later)
+- .NET Core SDK (version 3.1 or later)
+- Microsoft SQL Server Management Studio (SSMS) or Azure Data Studio
+- SQL Server database server (local or remote)
+
+2. Database Setup:
+
+- Open SQL Server Management Studio or Azure Data Studio.
+- Execute the provided SQL script to create the necessary database tables (Students, Modules, StudyRecords).
+- SQL Text File: SQL Schema for DbTimeManegmentApp.Sql 
+
+3. Application Setup:
+- Clone or download the application source code from the repository.
+- URL: https://github.com/VCNMB/vcnmb-prog6212-2023-poe-Justinsimplyis
+- Open the solution file (Prog6212_Part_2_ST10085290_Justin_P.sln) in Visual Studio.
+- Open the appsettings.json file in the TimeManagementApp project and update the connection string to point to your SQL Server database.
+
+4. Compile and Run:
+- Build the solution in Visual Studio to compile the application.
+- Set the TimeManagementApp project as the startup project.
+- Press F5 or click "Start" to run the application.
+
+--------------------------------------------------------------------------------------------------------------------
+Usage Instructions:
+
+1.Register/Login:
+- When you run the application, you will be prompted to register or login.
+- Click on "Register" to create a new account. Enter your username and password, and click "Register".
+- After registration, you can log in using your credentials.
+
+2.Add Study Modules:
+- After logging in, you can add study modules by providing module details (code, name, credits, class hours per week) and clicking "Add Module".
+
+3.Record Study Hours:
+- Select a module from the list and enter the number of study hours for the current week.
+- Click "Record Study Hours" to save the study hours record.
+
+4.View Remaining Hours:
+- The application will display the remaining self-study hours for each module based on the recorded and class hours.
